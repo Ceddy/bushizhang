@@ -1,4 +1,5 @@
 /* Red: f26065 */
+/* Darker Red: ed1c24 */
 
 /* Better Helvetica: http://css-tricks.com/snippets/css/better-helvetica/ */
 body {
@@ -7,7 +8,6 @@ body {
   font-size: 35px;
   font-weight: 300;
   text-align: center;
-  background: honeydew;
 }
 
 #home-splash {
@@ -49,6 +49,28 @@ body {
   width: 5%;
   font-size: 25px;
   text-align: left;
+}
+
+#home-contact {
+  background: #f26065;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 20px 40px;
+  position: absolute;
+  top: 50%;
+  left: 64.5%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#home-contact:hover {
+  background: #ed1c24;
+  opacity: 0.85;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 ::selection {
